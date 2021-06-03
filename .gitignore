@@ -12,7 +12,7 @@ ehthumbs_vista.db
 [Dd]esktop.ini
 
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
+# $RECYCLE.BIN/
 
 # Windows Installer files
 *.cab
@@ -80,7 +80,7 @@ Temporary Items
 *.class
 
 # Generated files
-bin/
+#bin/
 gen/
 out/
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
@@ -88,7 +88,7 @@ out/
 
 # Gradle files
 .gradle/
-build/
+# build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -444,7 +444,7 @@ fabric.properties
 
 ##### Eclipse
 .metadata
-bin/
+#bin/
 tmp/
 *.tmp
 *.bak
@@ -789,7 +789,7 @@ _pkginfo.txt
 !?*.[Cc]ache/
 
 # Others
-ClientBin/
+# ClientBin/
 ~$*
 *~
 *.dbmdl
@@ -1038,3 +1038,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Project - specific files
+!bin

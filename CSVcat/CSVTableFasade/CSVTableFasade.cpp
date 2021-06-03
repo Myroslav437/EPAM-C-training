@@ -11,7 +11,7 @@ void CSVTableFasade::printTable(const Table& t) {
         cout.flush(); //DEBUG
     });
 
-    pr.setMaxCellWidth(10);
+    pr.setMaxCellWidth(20);
     pr.print(t);
 }
 

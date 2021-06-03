@@ -14,10 +14,8 @@
                 "${workspaceFolder}/TablePrinter/*.cpp",
                 "-g",
                 "${workspaceFolder}/CSVTableFasade/*.cpp",
-                "-g",
-                "${workspaceFolder}/StudentProcessor/*.cpp",
                 "-o",
-                "${fileDirname}/CSVreader"
+                "${fileDirname}/csvcat"
             ],
             "options": {
                 "cwd": "${fileDirname}"
