@@ -7,7 +7,6 @@ int main(int argc, char *argv[]) {
     std::ifstream ifs;
     std::string path;
 
-    /*
     if(argc < 2) {
         std::cout << "No path specified" << std::endl;
     }
@@ -16,9 +15,6 @@ int main(int argc, char *argv[]) {
     for(int i = 1; i < argc; ++i) {
         path.append(argv[i]);
     }
-    */
-    path = "samples/StudentSample1.csv";
-   //
 
     ifs.open(path);
     if(!ifs.is_open()) {
@@ -73,4 +69,3 @@ int main(int argc, char *argv[]) {
     std::cout << std::endl;
     return 0;
 }
-
