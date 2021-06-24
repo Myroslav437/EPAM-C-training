@@ -131,7 +131,6 @@ namespace mysp {
 		return old;
 	}
 
-	//virtual typename std::add_lvalue_reference<element_type>::type operator*() const;
 	template<class Deleter>
 	typename UniquePtr<Deleter>::element_type& UniquePtr<Deleter>::operator*() const
 	{
